@@ -1,0 +1,470 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .menu-logo {
+        display: block !important;
+    }
+    .menu-bar {
+        display: block;
+    }
+    .menu-item {
+        display: none !important;
+    }
+    .mobile-icon-ss {
+        margin-top: -5px;
+        margin-right: 1px !important;
+        display: block !important;
+        margin-left: 0px;
+    }
+    .menu-bar-wraper {
+        display: flex;
+        align-items: center;
+    }
+    .hero-area {
+        padding: 43px 0 67px 0;
+    }
+    .hero-title h2 {
+        font-size: 66px;
+        transform: rotate(0deg);
+        line-height: 70px;
+        margin-bottom: 20px;
+        margin-top: 101px;
+    }
+    .hero-title p br {
+        display: none;
+    }
+    .hero-title h3 {
+        font-size: 23px;
+        margin-bottom: 24px;
+    }
+    .hero-title ul li a {
+        margin-bottom: 24px;
+    }
+
+    .hero-right
+    {
+    margin-top: -9px;
+    text-align: center;
+    }
+ 
+/* =========== */
+.hero-title ul{
+    flex-wrap: wrap;
+    
+}
+.hero-title ul li {
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+ 
+.hero-right img {
+    max-width: 551px;
+    position: absolute;
+    left: -102px;
+    top: 1px;
+  }
+  
+
+
+
+    .about-area {
+        padding: 43px 0;
+    }
+    .about-left img
+    {
+    max-width: 100%;
+   
+    }
+    .about-left img
+    {
+    margin-top: 9px;
+    margin-left: 0px;
+    }
+
+    .about-left{
+        padding-top: 100px;
+    }
+    .mas-pra {
+        max-width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .about-right {
+        margin-top: 29px;
+        text-align: center;
+    }
+    .about-right h2 {
+        font-size: 40px;
+    }
+
+
+    .tokenomics-area {
+        padding: 50px 0 26px;
+    
+    }
+    .tokenomic-title h2{
+        font-size: 50px;
+    }
+
+    .token-left-item{
+        margin-top: 40px;
+   
+    }
+    .token-right-item{
+        padding: 0px;
+        border: none;
+    }
+    .token-right-content {
+        display: block;
+    }
+    .about-btn- h3
+    {
+
+      font-size: 20px;
+    }
+
+
+    .token-left {
+        margin-bottom: 40px;
+    }
+
+    .partners-title h2 {
+        font-size: 49px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+    .token-right {
+    
+        padding: 35px 30px;
+        display: block;
+        text-align: center;
+    }
+    .token-right-ll {
+        text-align: center;
+    }
+    .token-right-rr {
+        margin-left: 0px;
+    }
+
+    .token-right h2 {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+  
+
+    .roadmap-title h2 {
+        font-size: 48px;
+    }
+    .roadmap-title p {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    .our-roadmap-area {
+        padding: 60px 0 30px 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        min-height: inherit;
+        /* position: relative; */
+    }
+
+    .hero-img {
+        margin-top: 60px;
+        text-align: center;
+        margin-bottom: 97px;
+    }
+
+
+ 
+    .footer-btm-content ul li {
+        color: #000;
+        font-family: "Baloo Bhai 2";
+        font-size: 16px !important;
+    }
+    .footer-left ul li a {
+        color: #FFF;
+        font-family: "Space Grotesk";
+        font-size: 15px;
+    }
+    .footer-right ul li a {
+        color: #FFF;
+        font-family: "Space Grotesk";
+        font-size: 14px;
+    }
+    footer {
+        padding: 57px 0 30px;
+    }
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+
+@media screen and (max-width: 767px) {
+    .menu-logo img{
+        width: 130px;
+    }
+    .menu-bar {
+        display: block;
+    }
+    .menu-item {
+        display: none !important;
+    }
+    .mobile-icon-ss {
+        margin-top: -5px;
+        margin-right: 1px !important;
+        display: block !important;
+        margin-left: 0px;
+    }
+    .menu-bar-wraper {
+        display: flex;
+        align-items: center;
+    }
+    header {
+        padding: 20px 0px;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.02);
+        position: fixed;
+        max-width: 98%;
+        margin: auto;
+        width: 100%;
+        top: 20px;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+    }
+    .menu-icon img {
+        width: 38px;
+    }
+    .hero-area {
+        padding: 73px 0 7px 0;
+    }
+    .hero-title h2 {
+        font-size: 46px;
+        margin-top: 101px;
+    
+    }
+    .hero-title p br {
+        display: none;
+        margin-bottom: 20px;
+    }
+    .hero-title p {
+        margin-bottom: 50px;
+    }
+
+    .hero-title ul li a {
+        margin-bottom: 24px;
+    }
+
+    .hero-right
+    {
+    margin-top: -9px;
+    text-align: center;
+    }
+
+
+    /* =========== */
+    .hero-title ul{
+        gap: 5px;
+    }
+    .hero-title ul li {
+        width: 50%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .hero-title ul li a {
+        max-width: 100%;
+    }
+
+    .hero-right img {
+     
+        max-width: 100%;
+        position: inherit;
+        left: 0px;
+        top: 0px;
+    }
+
+ 
+    .about-area {
+        padding: 43px 0;
+    }
+    .about-left img
+    {
+    max-width: 100%;
+    }
+    .about-left img
+    {
+    margin-top: 9px;
+    margin-left: 0px;
+    }
+
+
+
+
+    .about-right {
+        margin-top: 0px;
+        text-align: center;
+        padding: 10px;
+    }
+    .about-right h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 20px;
+    }
+    .about-right p
+    {
+        margin-bottom: 0px;
+      
+    }
+
+
+
+    .partners-area {
+        padding: 35px 0px;
+    }
+    .mas-pra{
+        max-width: 100%;
+        margin: inherit;
+    }
+    .tokenomics-area {
+        padding: 50px 0 26px;
+    
+    }
+    .tokenomic-title h2{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .token-left-item{
+    padding: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    }
+    .token-left-item p {
+        font-size: 12px;
+    }
+    .token-right-item{
+        padding: 0px;
+        border: none;
+    }
+    .token-right-content {
+        display: block;
+    }
+
+
+    .token-left {
+        margin-bottom: 40px;
+    }
+    .token-left-item ul li:first-of-type {
+
+        font-size: 14px;
+    }
+    .token-left-item ul li:last-of-type {
+
+        font-size: 14px;
+    }
+
+    .token-right img {
+        max-width: 100%;
+        margin-top: -30px;
+    }
+
+
+
+
+    .partners-title h2 {
+        font-size: 49px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+
+
+
+
+
+
+
+    .token-right h2 {
+
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+
+
+
+    .our-roadmap-area{
+        padding: 40px 0;
+    }
+
+
+
+
+    .roadmap-item {
+        padding: 30px;
+        min-height: inherit;
+    }
+
+  
+
+    .roadmap-title h2 {
+        font-size: 48px;
+        line-height: 50px;
+    }
+    .roadmap-title p {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+
+
+    footer {
+        padding: 35px 0 33px;
+        
+    }
+    .ft-logo {
+        margin-bottom: 30px;
+      }
+    .footer-content {
+        display: block;
+    }
+    .footer-left ul{
+        margin-bottom: 30px;
+    }
+    .footer-right ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 15px;
+        
+      }
+
+      .footer-right ul li{
+        width: 50%;
+      }
+
+
+
+}

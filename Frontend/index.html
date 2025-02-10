@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMERICAN BOY AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav-left">
+            <img src="images/hero-img.png" alt="American Boy AI Robot" class="nav-logo">
+            <a href="javascript:void(0)" id="aboutUsLink">ABOUT US</a>
+            <a href="javascript:void(0)" id="providersLink">PROVIDERS</a>
+        </nav>
+        <div class="nav-right">
+            <div class="top-header-items">
+                <a href="mailto:team@americanboyai.com" class="email-link">team@americanboyai.com</a>
+                <button id="connectWallet" class="connect-wallet-btn">CONNECT WALLET</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="chat-section">
+            <div class="chat-container">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <div class="terminal-button close"></div>
+                        <div class="terminal-button minimize"></div>
+                        <div class="terminal-button maximize"></div>
+                    </div>
+                    <div class="terminal-title">
+                        <span class="terminal-icon">⚡</span>
+                        <span class="terminal-text">AIBOY</span>
+                    </div>
+                    <div class="mode-buttons">
+                        <button id="chatMode" class="mode-button active">Chat</button>
+                        <button id="imageMode" class="mode-button">Image</button>
+                    </div>
+                </div>
+                <div id="chatMessages" class="chat-messages"></div>
+                <div class="chat-input">
+                    <input type="text" id="userInput" placeholder="Type your message...">
+                    <button id="sendMessage">Send</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="providersModal" class="modal">
+        <div class="modal-content">
+            <div class="terminal-header">
+                <div class="back-button" id="closeProviders">
+                    <span class="back-icon">←</span>
+                    <span class="back-text">Back</span>
+                </div>
+                <div class="terminal-title">PROVIDERS</div>
+            </div>
+            <div class="providers-container">
+                <div class="provider-card">
+                    <div class="provider-header">
+                        <img src="images/american_logo.webp" alt="American AI" class="provider-logo">
+                        <h3>American AI</h3>
+                    </div>
+                    <p class="provider-description">
+                        AIBOY is based on the American AI researches, leveraging cutting-edge AI technology to deliver innovative solutions and enhance user experiences.
+                    </p>
+                    <div class="provider-tags">
+                        <span class="tag research">Research</span>
+                        <span class="tag ai">AI Core</span>
+                    </div>
+                    <a href="https://americanai.com/" class="provider-link" target="_blank">Visit Provider</a>
+                </div>
+
+                <div class="provider-card">
+                    <div class="provider-header">
+                        <img src="images/Solana.svg" alt="Solana Foundation" class="provider-logo">
+                        <h3>Solana Foundation</h3>
+                    </div>
+                    <p class="provider-description">
+                        AIBOY is partnering with Solana Foundation to accelerate AI innovation on the Solana network and foster novel user experiences on Solana.
+                    </p>
+                    <div class="provider-tags">
+                        <span class="tag blockchain">Blockchain</span>
+                        <span class="tag ecosystem">Ecosystem</span>
+                    </div>
+                    <a href="https://solana.com/" class="provider-link" target="_blank">Visit Provider</a>
+                </div>
+
+                <div class="provider-card">
+                    <div class="provider-header">
+                        <img src="images/34926.png" alt="RIG" class="provider-logo">
+                        <h3>RIG</h3>
+                    </div>
+                    <p class="provider-description">
+                        Incorporating RIG's intuitive API design, comprehensive documentation and scalability for chatbots and complex AI systems.
+                    </p>
+                    <div class="provider-tags">
+                        <span class="tag api">API</span>
+                        <span class="tag framework">Framework</span>
+                    </div>
+                    <a href="https://arc.fun/" class="provider-link" target="_blank">Visit Provider</a>
+                </div>
+
+                <div class="provider-card">
+                    <div class="provider-header">
+                        <img src="images/github-mark.webp" alt="GitHub" class="provider-logo">
+                        <h3>GitHub</h3>
+                    </div>
+                    <p class="provider-description">
+                        AIBOY takes the sources and develops itself using GitHub, posting its developments to share transparency with the community.
+                    </p>
+                    <div class="provider-tags">
+                        <span class="tag development">Development</span>
+                        <span class="tag opensource">Open Source</span>
+                    </div>
+                    <a href="https://github.com/" class="provider-link" target="_blank">Visit Provider</a>
+                </div>
+
+                <div class="provider-card">
+                    <div class="provider-header">
+                        <img src="images/openai.webp" alt="OpenAI" class="provider-logo">
+                        <h3>OpenAI</h3>
+                    </div>
+                    <p class="provider-description">
+                        AIBOY leverages OpenAI's powerful API to deliver sophisticated language understanding and generation capabilities.
+                    </p>
+                    <div class="provider-tags">
+                        <span class="tag ai">AI Provider</span>
+                        <span class="tag api">API</span>
+                    </div>
+                    <a href="https://openai.com/" class="provider-link" target="_blank">Visit Provider</a>
+                </div>
+
+                <div class="provider-card">
+                    <div class="provider-header">
+                        <img src="images/qwenlm.webp" alt="DeepSeek" class="provider-logo">
+                        <h3>DeepSeek</h3>
+                    </div>
+                    <p class="provider-description">
+                        AIBOY integrates with DeepSeek's API to enhance its AI capabilities and provide advanced language processing features.
+                    </p>
+                    <div class="provider-tags">
+                        <span class="tag ai">AI Provider</span>
+                        <span class="tag api">API</span>
+                    </div>
+                    <a href="https://deepseek.com/" class="provider-link" target="_blank">Visit Provider</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="aboutUsModal" class="modal">
+        <div class="modal-content">
+            <div class="terminal-header">
+                <div class="back-button" id="closeAboutUs">
+                    <span class="back-icon">←</span>
+                    <span class="back-text">Back</span>
+                </div>
+                <div class="terminal-title">ABOUT US</div>
+            </div>
+            <div class="about-content">
+                <div class="about-section">
+                    <h2>Vision</h2>
+                    <p>AIBOY represents the future of decentralized AI infrastructure. We're building a revolutionary ecosystem where AI agents can collaborate, learn, and evolve together on the blockchain, creating a new paradigm for artificial intelligence interaction and development.</p>
+                </div>
+
+                <div class="about-section">
+                    <h2>Infrastructure</h2>
+                    <p>Our infrastructure is designed to support the seamless integration of multiple AI agents operating on a unified blockchain network. By leveraging RIG from ARC, we're able to create robust, scalable AI systems with advanced features like RAG (Retrieval Augmented Generation) and multi-model support. This foundation enables us to build sophisticated AI applications that can interact seamlessly with blockchain technology.</p>
+                </div>
+
+                <div class="about-section">
+                    <h2>Technology Stack</h2>
+                    <p>Built on advanced AI models and blockchain technology, our system integrates multiple APIs and frameworks:
+                        • RIG from ARC for core AI functionality and RAG capabilities
+                        • OpenAI and DeepSeek for language processing
+                        • Solana for blockchain integration
+                        • Custom-built infrastructure for AI agent coordination
+                    This diverse technology stack ensures robust performance, scalability, and the ability to handle complex AI interactions across our growing network.</p>
+                </div>
+
+                <div class="about-section">
+                    <h2>Ecosystem Growth</h2>
+                    <p>AIBOY is more than just an AI assistant - it's the first step in our vision to create an expansive ecosystem of interconnected AI agents. Using RIG's powerful framework, our platform enables AI entities to share knowledge, resources, and capabilities while maintaining security and transparency through blockchain technology.</p>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://x.com/AmericanBoyAI" target="_blank" class="social-link twitter">
+                        <span class="icon">𝕏</span>
+                        <div class="content">
+                            <span class="label">Twitter/X</span>
+                            <span class="value">@AmericanBoyAI</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/AiBoyLabs/AmericanAiBoy" target="_blank" class="social-link github">
+                        <span class="icon">⌘</span>
+                        <div class="content">
+                            <span class="label">GitHub</span>
+                            <span class="value">AiBoyLabs</span>
+                        </div>
+                    </a>
+                    <a href="mailto:team@americanboyai.com" class="social-link email">
+                        <span class="icon">✉</span>
+                        <div class="content">
+                            <span class="label">Email</span>
+                            <span class="value">team@americanboyai.com</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+    <script>
+        // Check if Phantom is installed
+        window.addEventListener('load', function() {
+            if ("solana" in window) {
+                console.log("Phantom Wallet is installed!");
+            }
+        });
+    </script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+</html>
